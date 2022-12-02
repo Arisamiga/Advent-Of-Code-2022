@@ -1,0 +1,7 @@
+Opponent    Response
+A == Rock  Y == Paper
+B == Paper  X == Rock
+C == Scissors  Z == Scissors
+
+Extra points Rock == 1, Paper == 2, Scissors == 3
+Lose == 0 points, Draw == 3 points, Win == 6 points
