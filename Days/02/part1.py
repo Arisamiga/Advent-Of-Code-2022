@@ -4,7 +4,7 @@
 # Part 1 of Day 2
 
 
-inputFile = open("input.txt", "r")
+inputFile = open("./Days/02/input.txt", "r")
 
 inputValues = inputFile.read().split("\n")
 

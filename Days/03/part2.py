@@ -4,7 +4,7 @@
 
 import string
 
-inputFile = open("input.txt", "r")
+inputFile = open("./Days/03/input.txt", "r")
 
 inputValues = inputFile.read().split("\n")
 

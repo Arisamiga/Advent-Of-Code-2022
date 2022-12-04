@@ -1,7 +1,7 @@
 
 # Part 2 of Day 1
 
-inputFile = open("input.txt", "r")
+inputFile = open("./Days/01/input.txt", "r")
 
 inputCalories = inputFile.read().split("\n")
 
