@@ -15,13 +15,13 @@ sensorPositions = []
 
 for line in inputValues:
     beacon = re.split('.+?(?=:)', line)[1]
-    beacon = re.split("\W+", beacon)
-    x,y = [int(s) for s in beacon if s.isdigit()]
+    beacon = re.split("[^\-\w]+", beacon)
+    x,y = [int(s) for s in beacon if s[1:].isdigit()]
     beaconPositions.append((x,y))
 
     sensor = line.split(":")[0]
-    sensor = re.split("\W+", sensor)
-    x,y = [int(s) for s in sensor if s.isdigit()]
+    sensor = re.split("[^\-\w]+", sensor)
+    x,y = [int(s) for s in sensor if s[1:].isdigit()]
     sensorPositions.append((x,y))
 
 
